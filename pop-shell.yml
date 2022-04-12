@@ -1,0 +1,16 @@
+Main:
+  Move, Resize, Swap:
+    - SUPER+hjkl: switch focus between windows
+    - SUPER+Enter: enter window adjustement mode
+    - hjkl: move window (adjustement mode)
+    - shift+hjkl: resize window (adjustement mode)
+    - ctrl+hjkl: swap window (adjustement mode)
+    - ESC: escape (adjustement mode)
+    - SUPER+m: maximize window
+    - SUPER+q: close window
+
+  Manage workspace:
+    - SUPER+ctrl+jk: navigate between workspaces
+    - SUPER+Home/End: Navigate to first/last workspace
+    - SUPER+shift+jk: move active window between workspace
+    - SUPER+ESC: lock screen

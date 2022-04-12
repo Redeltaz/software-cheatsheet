@@ -1,0 +1,34 @@
+Main:
+  Prefix: ctrl+b
+
+  Sessions:
+    - tmux new -s sessionName: create new session
+    - tmux kill-ses -t sessionName: kill session
+    - tmux ls: list sessions
+    - tmux a: attach to last session
+    - tmux a -t sessionName: attach to session with this name
+    - prefix+b: session and window preview
+    - prefix+(: move to previous session
+    - prefix+): move to next session
+
+  Windows:
+    - prefix+c: create window
+    - prefix+,: rename current window
+    - prefix+&: close current window
+    - prefix+p: go to previous window
+    - prefix+n: go to next window
+    - prefix+1234567890: select window by number
+  
+  Panes:
+    - prefix+;: toggle last active pane
+    - prefix+%: split pane in horizontal
+    - prefix+": split pane in vertical
+    - prefix+{: move current pane to left
+    - prefix+}: move current pane to right
+    - prefix+arrow: switch to pane on the direction
+    - prefix+q: show pane numbers
+    - prefix+q+1234567890: select pane by number
+    - prefix+z: fullscreen on selected pane
+    - prefix+!: convert pane into window
+    - prefix+ctrl+arrow: resize current pane
+    - prefix+x: close current pane 

@@ -1,0 +1,59 @@
+Main:
+  Navigation:
+    - hjkl: move
+    - gg: go to first line of file
+    - G: go to last line of file
+    - $: go to end of line
+    - ^: go to beginning of line
+    - w: go to next word (next alphanumeric word)
+    - W: go to next word (delimited by white space)
+    - b: go to previous word (previous alphanumeric word)
+    - B: go to previous word (delimited by white space)
+    - {}: Navigate through paragraph
+
+  Insertion:
+    - a: Insert after the cursor
+    - A: Insert at the end of line
+    - i: Insert before the cursor
+    - o: Begin new line below the cursor
+    - O: Begin new line above the cursor
+
+  Delete:
+    - x: Delete character on cursor
+    - dw: Delete word after cursor
+    - d0: Delete everything from cursor to beginning of line
+    - d$: Delete everything from cursor to end of line
+    - dgg: Delete everything to beginning of file
+    - dG: Delete everything to end of file
+    - dd: Delete line
+
+  Replace:
+    - r: Replace the character under cursor
+    - R: Replace characters instead of inserting them 
+
+  Copy/Paste:
+    - yy: Copy current line into buffer
+    - \"xyy: Copy current line into register x (don't include the \)
+    - p: Paste storage buffer after current line
+    - P: Paste storage buffer before current line
+    - \"xp: Paste from register x after current line (don't include the \)
+    - \"xP: Paste from register x before current line (don't include the \) 
+
+  Undo/Redo:
+    - u: Undo last operation
+    - Ctrl+r: Redo last operation
+
+  Search:
+    - /search_text: Search the word 'search_text' on document
+    - n: Go to next instance
+    - N: Go to previous instance
+
+  Selection:
+    - v: Enter select mode per character
+    - V: Enter select mode per line
+    - Ctrl V: Enter select mode for block
+    - d: Delete selection
+    - <>: Untab and Tab selection
+    - ~: Switch characters case of selection
+    - y: Copy to into buffer
+    - c: delete content (but not line)
