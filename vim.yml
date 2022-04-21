@@ -57,3 +57,19 @@ Main:
     - ~: Switch characters case of selection
     - y: Copy to into buffer
     - c: delete content (but not line)
+
+  Nvimtree:
+    - a: add a file
+    - r: rename a file
+    - x: add/remove file/directory to cut clipboard
+    - c: add/remove file/directory to copy clipboard
+    - y: copy file name to clipboard
+    - Y: copy relative file path to clipboard
+    - gy: copy absolute file path to clipboard
+    - p: past from keyboard
+    - d: delete a file
+    - D: trash a file
+    - I: toggle visibility of hidden folder
+    - H: toggle visibility of dotfiles
+    - .: enter command mode for the selected file
+    - Ctrl+k: show file informations
